@@ -62,9 +62,9 @@ text("Approx = " + this.approx.toFixed(15), width/2, height/2-50);
 fill(0, 0, 0);
 text("PI = " + Math.PI, width/2, height/2);
 fill(0, 0, 0);
-text("ACCURACY = " + ((this.approx/Math.PI)*100).toFixed(5) + "%", width/2+5, height/2+50);
+text("ACCURACY = " + ((this.approx/Math.PI)*100).toFixed(8) + "%", width/2+5, height/2+50);
 fill(128);
-text("ACCURACY = " + ((this.approx/Math.PI)*100).toFixed(5) + "%", width/2, height/2+50);
+text("ACCURACY = " + ((this.approx/Math.PI)*100).toFixed(8) + "%", width/2, height/2+50);
 textAlign(LEFT, BOTTOM);
 fill(255, 0, 0);
 text("RED = APPROXIMATION", 0, 50);
@@ -98,10 +98,6 @@ if(mouseX >= width/2+260-75 && mouseX <= width/2+270-75+270-175-5 && mouseY >= h
     maxNumberOfSeries += 10000;
 }
 };
-
-
-
-
 
     }};
 
